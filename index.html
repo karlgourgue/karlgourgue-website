@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karl Gourgue</title>
+    <meta name="description" content="Enterprise Solutions Consultant at Opus and Director at NY7s. Background in SaaS sales, analytics, and GTM strategy.">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            line-height: 1.7;
+            color: #1a1a1a;
+            background: #fafafa;
+        }
+
+        .container {
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Header */
+        header {
+            text-align: center;
+            padding: 120px 0 80px;
+            border-bottom: 1px solid #e5e5e5;
+        }
+
+        h1 {
+            font-family: 'Playfair Display', Georgia, serif;
+            font-size: 3rem;
+            font-weight: 400;
+            letter-spacing: -0.02em;
+            margin-bottom: 16px;
+        }
+
+        .tagline {
+            font-size: 1.1rem;
+            color: #666;
+            margin-bottom: 24px;
+        }
+
+        .email-link {
+            display: inline-block;
+            color: #1a1a1a;
+            text-decoration: none;
+            border-bottom: 1px solid #1a1a1a;
+            padding-bottom: 2px;
+            transition: opacity 0.2s;
+        }
+
+        .email-link:hover {
+            opacity: 0.6;
+        }
+
+        /* About */
+        .about {
+            padding: 80px 0;
+            border-bottom: 1px solid #e5e5e5;
+        }
+
+        .section-title {
+            font-family: 'Playfair Display', Georgia, serif;
+            font-size: 1.5rem;
+            font-weight: 400;
+            margin-bottom: 24px;
+        }
+
+        .about p {
+            color: #444;
+            margin-bottom: 16px;
+        }
+
+        .experience-list {
+            margin-top: 24px;
+            color: #666;
+            font-size: 0.95rem;
+        }
+
+        .experience-list span {
+            color: #1a1a1a;
+            font-weight: 500;
+        }
+
+        /* Projects */
+        .projects {
+            padding: 80px 0;
+        }
+
+        .project {
+            margin-bottom: 48px;
+            padding-bottom: 48px;
+            border-bottom: 1px solid #e5e5e5;
+        }
+
+        .project:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        .project h3 {
+            font-family: 'Playfair Display', Georgia, serif;
+            font-size: 1.25rem;
+            font-weight: 400;
+            margin-bottom: 8px;
+        }
+
+        .project-tech {
+            font-size: 0.85rem;
+            color: #888;
+            margin-bottom: 12px;
+        }
+
+        .project p {
+            color: #444;
+            margin-bottom: 12px;
+        }
+
+        .project-link {
+            color: #1a1a1a;
+            text-decoration: none;
+            font-size: 0.9rem;
+            border-bottom: 1px solid #1a1a1a;
+            padding-bottom: 1px;
+        }
+
+        .project-link:hover {
+            opacity: 0.6;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 60px 0;
+            border-top: 1px solid #e5e5e5;
+            color: #888;
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: #1a1a1a;
+            text-decoration: none;
+            border-bottom: 1px solid #1a1a1a;
+            padding-bottom: 1px;
+        }
+
+        footer a:hover {
+            opacity: 0.6;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                padding: 80px 0 60px;
+            }
+
+            h1 {
+                font-size: 2.25rem;
+            }
+
+            .about, .projects {
+                padding: 60px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Karl Gourgue</h1>
+            <p class="tagline">Enterprise Solutions @ Opus // Director at NY7s — New York</p>
+            <a href="mailto:karl@karlgourgue.com" class="email-link">karl@karlgourgue.com</a>
+        </header>
+
+        <section class="about">
+            <h2 class="section-title">About</h2>
+            <p>I sell software and build things on the side. Currently an Enterprise Solutions Consultant at Opus, where I focus on pipeline generation, running demos and handling the technical side of the sale, and migrating content for new customers as they onboard.</p>
+            <p>Before Opus, I sold at OpenTable, built PE/VC partnerships at Wunderkind, and managed $100M+ accounts at Google working with Disney, Amazon, and NBCUniversal. Before that, I was a Tech Consultant at Capgemini doing project and product management. I studied Business and Computing at NYU Stern, and I still write code when I can.</p>
+            <p class="experience-list">
+                <span>Opus</span> · <span>OpenTable</span> · <span>Wunderkind</span> · <span>Google</span> · <span>Capgemini</span> · <span>NYU Stern</span>
+            </p>
+        </section>
+
+        <section class="projects">
+            <h2 class="section-title">Projects</h2>
+
+            <div class="project">
+                <h3>PipeScore</h3>
+                <p class="project-tech">Python, SQL, Streamlit</p>
+                <p>An account propensity scoring engine that ranks prospects by likelihood to close. Built to solve a real problem at work—prioritizing outreach when you have thousands of accounts and limited time. Uses firmographic signals, engagement data, and historical win patterns to surface the best opportunities first.</p>
+                <a href="#" class="project-link">Coming Soon</a>
+            </div>
+
+            <div class="project">
+                <h3>FFL Trade Analyzer</h3>
+                <p class="project-tech">React, Vite, D3</p>
+                <p>A fantasy football trade analysis dashboard for my league. Grades every trade by calculating net points scored post-trade, ranks owners by trade efficiency, and visualizes head-to-head rivalries. Includes playoff impact tracking, position breakdowns, and a full partner matrix showing who wins when trading with whom.</p>
+                <a href="https://github.com/karlgourgue/nyrc-ffl-trade-site" target="_blank" class="project-link">View on GitHub</a>
+            </div>
+
+            <div class="project">
+                <h3>NY7s Website</h3>
+                <p class="project-tech">Next.js, Tailwind, Supabase</p>
+                <p>The official website for the New York Rugby Sevens—the longest-running rugby sevens tournament in the US, established in 1959. Built a full registration system with Stripe integration, an admin dashboard for tracking signups and revenue, and a content management layer for FAQs, rules, and team communications.</p>
+                <a href="https://github.com/karlgourgue/ny7s-redesign" target="_blank" class="project-link">View on GitHub</a>
+            </div>
+        </section>
+
+        <footer>
+            <p><a href="mailto:karl@karlgourgue.com">karl@karlgourgue.com</a> · <a href="https://linkedin.com/in/karlgourgue" target="_blank">LinkedIn</a></p>
+            <p style="margin-top: 16px;">&copy; 2025 Karl Gourgue</p>
+        </footer>
+    </div>
+</body>
+</html>
